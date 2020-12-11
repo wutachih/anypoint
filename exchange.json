@@ -5,7 +5,8 @@
   "tags" : [ ],
   "groupId" : "1da8cd2d-8cff-4bd2-a061-a01217af371d",
   "assetId" : "test-api",
-  "version" : "1.0.0",
-  "apiVersion" : "",
-  "dependencies" : [ ]
+  "version" : "2.0.1",
+  "apiVersion" : "v1",
+  "dependencies" : [ ],
+  "originalFormatVersion" : "1.0"
 }
