@@ -1,1 +1,11 @@
-{"main":"test-api.raml","name":"test-api","classifier":"raml","tags":[]}
+{
+  "main" : "test-api.raml",
+  "name" : "test-api",
+  "classifier" : "raml",
+  "tags" : [ ],
+  "groupId" : "1da8cd2d-8cff-4bd2-a061-a01217af371d",
+  "assetId" : "test-api",
+  "version" : "1.0.0",
+  "apiVersion" : "",
+  "dependencies" : [ ]
+}
