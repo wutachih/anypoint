@@ -1,2 +1,15 @@
 #%RAML 1.0
 title: test-api
+/hello:
+  get:
+    description: send hello
+    
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "message": "Hello"
+              }
+       
