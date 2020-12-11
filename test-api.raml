@@ -1,15 +1,39 @@
 #%RAML 1.0
 title: test-api
-/hello:
-  get:
-    description: send hello
+/api:
+  /hello:
+    get:
+      description: send hello
     
-    responses:
-      200:
-        body:
-          application/json:
-            example:
-              {
-                "message": "Hello"
-              }
-       
+      responses:
+        200:
+          body:
+            application/json:
+              example:
+                {
+                  "message": "Hello"
+                }
+  
+  /send:
+    get:
+      description: send email
+      responses:
+        200:
+          body:
+            application/json:
+              example:
+                {
+                  "message": "Sent"
+                }   
+
+  /account:
+    get:
+      description: sfdc account info
+      responses:
+        200:
+          body:
+            application/json:
+              example:
+                {
+                  "message": "ok"
+                }   
